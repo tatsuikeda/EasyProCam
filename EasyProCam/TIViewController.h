@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface TIViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIView *redBox;
+@property (strong, nonatomic) AVCaptureStillImageOutput *stillImageOutput;
+@property (strong, nonatomic) AVCaptureDevice *inputDevice;
+
+- (IBAction)shutterAction:(id)sender;
 
 @end
