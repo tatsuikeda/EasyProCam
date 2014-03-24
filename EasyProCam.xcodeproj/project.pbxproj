@@ -22,6 +22,7 @@
 		17AC6BF018BD89DF00610AC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17AC6BEE18BD89DF00610AC0 /* InfoPlist.strings */; };
 		17AC6BF218BD89DF00610AC0 /* EasyProCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AC6BF118BD89DF00610AC0 /* EasyProCamTests.m */; };
 		17AC6BFC18BD8BA100610AC0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AC6BFB18BD8BA100610AC0 /* AVFoundation.framework */; };
+		17FF8E6718D1458C00E7E019 /* IMG_0550.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 17FF8E6618D1458C00E7E019 /* IMG_0550.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		17AC6BEF18BD89DF00610AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17AC6BF118BD89DF00610AC0 /* EasyProCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyProCamTests.m; sourceTree = "<group>"; };
 		17AC6BFB18BD8BA100610AC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17FF8E6618D1458C00E7E019 /* IMG_0550.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0550.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		17AC6BCC18BD89DF00610AC0 /* EasyProCam */ = {
 			isa = PBXGroup;
 			children = (
+				17FF8E6618D1458C00E7E019 /* IMG_0550.JPG */,
 				17AC6BD518BD89DF00610AC0 /* TIAppDelegate.h */,
 				17AC6BD618BD89DF00610AC0 /* TIAppDelegate.m */,
 				17AC6BD818BD89DF00610AC0 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17AC6BDF18BD89DF00610AC0 /* Images.xcassets in Resources */,
+				17FF8E6718D1458C00E7E019 /* IMG_0550.JPG in Resources */,
 				17AC6BD118BD89DF00610AC0 /* InfoPlist.strings in Resources */,
 				17AC6BDA18BD89DF00610AC0 /* Main.storyboard in Resources */,
 			);
@@ -465,6 +469,7 @@
 				17AC6BF718BD89DF00610AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17AC6BF818BD89DF00610AC0 /* Build configuration list for PBXNativeTarget "EasyProCamTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +478,7 @@
 				17AC6BFA18BD89DF00610AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

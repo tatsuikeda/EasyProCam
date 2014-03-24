@@ -14,6 +14,8 @@
 @property (strong, nonatomic) IBOutlet UIView *redBox;
 @property (strong, nonatomic) AVCaptureStillImageOutput *stillImageOutput;
 @property (strong, nonatomic) AVCaptureDevice *inputDevice;
+@property (weak, nonatomic) IBOutlet UIImageView *tempImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *tempOutputImageView;
 
 - (IBAction)shutterAction:(id)sender;
 
